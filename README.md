@@ -36,3 +36,7 @@ We will be using ‘weighted’ F1-measure as the evaluation metric for this com
     - Weighted f1 score for ExtraTreesClassifier is:  0.671
     - Weighted f1 score for XGBClassifier is:  0.65
       
+      
+## Business insights and inferences – Key observations
+- Apple and Google found maximum mentions thus clearly indicating the leading players in
+  the tech industry
