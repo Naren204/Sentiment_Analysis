@@ -18,7 +18,7 @@ We will be using ‘weighted’ F1-measure as the evaluation metric for this com
 
 ## Data Cleaning steps:
 1.  Drop tweet which has NaN value from the data.
-2.  Drop tweets which has sentiment value 3(Can't Tell) because these were not adding any value and count is very less(125)
+2.  Drop tweets which has sentiment value 3(Can't Tell) because these were not adding any value and count is very less(approx 125)
 3.  Checking and converting the emoji into text
 4.  Encoding the text by removing the Non-ASCII characters
 5.  Removing #sxsw which is occurring the most and adding no value(sxsw is the name of the conference)
