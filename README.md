@@ -11,6 +11,11 @@ The file train.csv has 3 columns
 
 tweet_id - Unique id for tweets. tweet - Tweet about the brand/product sentiment - 0: Negative, 1: Neutral, 2: Positive, 3: Can't Tell
 
+
+## Evaluation Metric
+We will be using ‘weighted’ F1-measure as the evaluation metric for this competition
+
+
 ## Data Cleaning steps:
 1.  Drop tweet which has NaN value from the data.
 2.  Drop tweets which has sentiment value 3(Can't Tell) because these were not adding any value and count is very less(125)
@@ -24,9 +29,10 @@ tweet_id - Unique id for tweets. tweet - Tweet about the brand/product sentiment
 
 ## Vectorize and modelling
 1.  Used TF-IDF for converting the text data into vectors
-2.  Modelling
-
-
-
-## Evaluation Metric
-We will be using ‘weighted’ F1-measure as the evaluation metric for this competition
+2.  Models with there f1 score:
+    - Weighted f1 score for LogisticRegression is:  0.623
+    - Weighted f1 score for MultinomialNB is:  0.600
+    - Weighted f1 score for RandomForestClassifier is:  0.649
+    - Weighted f1 score for ExtraTreesClassifier is:  0.671
+    - Weighted f1 score for XGBClassifier is:  0.65
+      
